@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class CrashDetector : MonoBehaviour
    {
        if(other.tag == "Head")
        {
-           Debug.Log("Te-ai lovit de te-ai spart");
+           SceneManager.LoadScene(0);
        }
    }
 }
