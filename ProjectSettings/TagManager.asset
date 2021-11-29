@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Dinu
   - Head
+  - Rocks
   layers:
   - Default
   - TransparentFX
